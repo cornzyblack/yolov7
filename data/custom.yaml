@@ -4,9 +4,9 @@
 download: bash ./scripts/get_coco.sh
 
 # train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-train: /content/CGHD-coco/train/train.json # 118287 images
-val: /content/CGHD-coco/valid/valid.json # 5000 images
-test: /content/CGHD-coco/test/test.json # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+train: /content/CGHD-coco/annotations/train.json # 118287 images
+val: /content/CGHD-coco/annotations/valid.json # 5000 images
+test: /content/CGHD-coco/annotations/test.json # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
 
 # number of classes
 nc: 46
