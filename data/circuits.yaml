@@ -14,12 +14,12 @@ nc: 46
 # class names
 names:
   [
-    "electrical-components",
     "and",
     "antenna",
     "capacitor-polarized",
     "capacitor-unpolarized",
     "crossover",
+    "current-source",
     "diac",
     "diode",
     "diode-light_emitting",
@@ -55,9 +55,9 @@ names:
     "transistor-photo",
     "triac",
     "varistor",
+    "voltage-ac",
     "voltage-dc",
-    "voltage-dc_ac",
     "voltage-dc_regulator",
     "vss",
-    "xor",
+    "xor"
   ]
