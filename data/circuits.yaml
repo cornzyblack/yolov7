@@ -1,0 +1,53 @@
+path: /content/CGHD-coco
+train: train/images
+val: valid/images
+test: test/images
+
+# Classes
+names:
+  0: and
+  1: antenna
+  2: capacitor-polarized
+  3: capacitor-unpolarized
+  4: crossover
+  5: current-source
+  6: diac
+  7: diode
+  8: diode-light_emitting
+  9: fuse
+  10: gnd
+  11: inductor
+  12: integrated_circuit
+  13: integrated_cricuit-ne555
+  14: junction
+  15: lamp
+  16: microphone
+  17: motor
+  18: nand
+  19: nor
+  20: not
+  21: operational_amplifier
+  22: optocoupler
+  23: or
+  24: probe-current
+  25: relay
+  26: resistor
+  27: resistor-adjustable
+  28: resistor-photo
+  29: schmitt_trigger
+  30: socket
+  31: speaker
+  32: switch
+  33: terminal
+  34: text
+  35: thyristor
+  36: transformer
+  37: transistor
+  38: transistor-photo
+  39: triac
+  40: varistor
+  41: voltage-ac
+  42: voltage-dc
+  43: voltage-dc_regulator
+  44: vss
+  45: xor
